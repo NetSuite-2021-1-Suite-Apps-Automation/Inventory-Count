@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2299454" started-at="2021-04-07T19:58:11Z" finished-at="2021-04-07T20:36:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2299454" started-at="2021-04-07T19:58:11Z" finished-at="2021-04-07T20:36:31Z">
+      <class name="com.qa.testcases.Inventory_Items_Testing">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.qa.testcases.Inventory_Items_Testing@64bf3bbf]" name="setExtent" is-config="true" duration-ms="292" started-at="2021-04-07T19:58:11Z" finished-at="2021-04-07T19:58:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.Inventory_Items_Testing@64bf3bbf]" name="setUp" is-config="true" duration-ms="17341" started-at="2021-04-07T19:58:12Z" finished-at="2021-04-07T19:58:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="assembly_inventory_consolidation_through_item_scanning()[pri:1, instance:com.qa.testcases.Inventory_Items_Testing@64bf3bbf]" name="assembly_inventory_consolidation_through_item_scanning" duration-ms="313147" started-at="2021-04-07T19:58:29Z" finished-at="2021-04-07T20:03:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assembly_inventory_consolidation_through_item_scanning -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.Inventory_Items_Testing@64bf3bbf]" name="tearDown" is-config="true" duration-ms="877" started-at="2021-04-07T20:03:42Z" finished-at="2021-04-07T20:03:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=assembly_inventory_consolidation_through_item_scanning status=SUCCESS method=Inventory_Items_Testing.assembly_inventory_consolidation_through_item_scanning()[pri:1, instance:com.qa.testcases.Inventory_Items_Testing@64bf3bbf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.Inventory_Items_Testing@64bf3bbf]" name="setUp" is-config="true" duration-ms="14596" started-at="2021-04-07T20:03:43Z" finished-at="2021-04-07T20:03:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="invalid_quantity_through_csv()[pri:2, instance:com.qa.testcases.Inventory_Items_Testing@64bf3bbf]" name="invalid_quantity_through_csv" duration-ms="122042" started-at="2021-04-07T20:03:58Z" finished-at="2021-04-07T20:06:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_quantity_through_csv -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.Inventory_Items_Testing@64bf3bbf]" name="tearDown" is-config="true" duration-ms="801" started-at="2021-04-07T20:06:00Z" finished-at="2021-04-07T20:06:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalid_quantity_through_csv status=SUCCESS method=Inventory_Items_Testing.invalid_quantity_through_csv()[pri:2, instance:com.qa.testcases.Inventory_Items_Testing@64bf3bbf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.Inventory_Items_Testing@64bf3bbf]" name="setUp" is-config="true" duration-ms="11737" started-at="2021-04-07T20:06:00Z" finished-at="2021-04-07T20:06:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="consolidation_checkbox()[pri:3, instance:com.qa.testcases.Inventory_Items_Testing@64bf3bbf]" name="consolidation_checkbox" duration-ms="213898" started-at="2021-04-07T20:06:12Z" finished-at="2021-04-07T20:09:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- consolidation_checkbox -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.Inventory_Items_Testing@64bf3bbf]" name="tearDown" is-config="true" duration-ms="734" started-at="2021-04-07T20:09:46Z" finished-at="2021-04-07T20:09:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=consolidation_checkbox status=SUCCESS method=Inventory_Items_Testing.consolidation_checkbox()[pri:3, instance:com.qa.testcases.Inventory_Items_Testing@64bf3bbf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.Inventory_Items_Testing@64bf3bbf]" name="setUp" is-config="true" duration-ms="12088" started-at="2021-04-07T20:09:47Z" finished-at="2021-04-07T20:09:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="invalidBin()[pri:4, instance:com.qa.testcases.Inventory_Items_Testing@64bf3bbf]" name="invalidBin" duration-ms="70061" started-at="2021-04-07T20:09:59Z" finished-at="2021-04-07T20:11:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidBin -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.Inventory_Items_Testing@64bf3bbf]" name="tearDown" is-config="true" duration-ms="843" started-at="2021-04-07T20:11:09Z" finished-at="2021-04-07T20:11:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidBin status=SUCCESS method=Inventory_Items_Testing.invalidBin()[pri:4, instance:com.qa.testcases.Inventory_Items_Testing@64bf3bbf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.Inventory_Items_Testing@64bf3bbf]" name="setUp" is-config="true" duration-ms="13570" started-at="2021-04-07T20:11:10Z" finished-at="2021-04-07T20:11:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="processed_report()[pri:5, instance:com.qa.testcases.Inventory_Items_Testing@64bf3bbf]" name="processed_report" duration-ms="289798" started-at="2021-04-07T20:11:23Z" finished-at="2021-04-07T20:16:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- processed_report -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.Inventory_Items_Testing@64bf3bbf]" name="tearDown" is-config="true" duration-ms="813" started-at="2021-04-07T20:16:13Z" finished-at="2021-04-07T20:16:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=processed_report status=SUCCESS method=Inventory_Items_Testing.processed_report()[pri:5, instance:com.qa.testcases.Inventory_Items_Testing@64bf3bbf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.Inventory_Items_Testing@64bf3bbf]" name="setUp" is-config="true" duration-ms="12737" started-at="2021-04-07T20:16:14Z" finished-at="2021-04-07T20:16:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="differentQuantites()[pri:6, instance:com.qa.testcases.Inventory_Items_Testing@64bf3bbf]" name="differentQuantites" duration-ms="584561" started-at="2021-04-07T20:16:27Z" finished-at="2021-04-07T20:26:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- differentQuantites -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.Inventory_Items_Testing@64bf3bbf]" name="tearDown" is-config="true" duration-ms="856" started-at="2021-04-07T20:26:11Z" finished-at="2021-04-07T20:26:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=differentQuantites status=SUCCESS method=Inventory_Items_Testing.differentQuantites()[pri:6, instance:com.qa.testcases.Inventory_Items_Testing@64bf3bbf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.Inventory_Items_Testing@64bf3bbf]" name="setUp" is-config="true" duration-ms="13707" started-at="2021-04-07T20:26:12Z" finished-at="2021-04-07T20:26:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="assembly_inventory_consolidation_through_inventory_count()[pri:7, instance:com.qa.testcases.Inventory_Items_Testing@64bf3bbf]" name="assembly_inventory_consolidation_through_inventory_count" duration-ms="443262" started-at="2021-04-07T20:26:26Z" finished-at="2021-04-07T20:33:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assembly_inventory_consolidation_through_inventory_count -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.Inventory_Items_Testing@64bf3bbf]" name="tearDown" is-config="true" duration-ms="934" started-at="2021-04-07T20:33:49Z" finished-at="2021-04-07T20:33:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=assembly_inventory_consolidation_through_inventory_count status=SUCCESS method=Inventory_Items_Testing.assembly_inventory_consolidation_through_inventory_count()[pri:7, instance:com.qa.testcases.Inventory_Items_Testing@64bf3bbf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.Inventory_Items_Testing@64bf3bbf]" name="setUp" is-config="true" duration-ms="12324" started-at="2021-04-07T20:33:50Z" finished-at="2021-04-07T20:34:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="invalidQuantity()[pri:8, instance:com.qa.testcases.Inventory_Items_Testing@64bf3bbf]" name="invalidQuantity" duration-ms="142404" started-at="2021-04-07T20:34:02Z" finished-at="2021-04-07T20:36:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidQuantity -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.Inventory_Items_Testing@64bf3bbf]" name="tearDown" is-config="true" duration-ms="814" started-at="2021-04-07T20:36:25Z" finished-at="2021-04-07T20:36:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidQuantity status=SUCCESS method=Inventory_Items_Testing.invalidQuantity()[pri:8, instance:com.qa.testcases.Inventory_Items_Testing@64bf3bbf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.qa.testcases.Inventory_Items_Testing@64bf3bbf]" name="endReport" is-config="true" duration-ms="5152" started-at="2021-04-07T20:36:26Z" finished-at="2021-04-07T20:36:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.qa.testcases.Inventory_Items_Testing -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
